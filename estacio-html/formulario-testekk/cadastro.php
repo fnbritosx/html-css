@@ -1,0 +1,1 @@
+Aprenda a utilizar o PHP primeiro para conseguir redirecionar esses dados! 

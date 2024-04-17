@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom left, #B194CA, #D72050, #F6E57B);
+    text-align: justify;
+}
+header > h1{
+    background-color: rgb(0, 0, 216);
+    border-style: solid;
+    text-align: center;
+}
+
+nav{ 
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 3px;
+    text-align: center;
+   border-style: solid;
+}
+
+nav > a{
+    text-decoration: none;
+    margin: 30px; 
+    
+}
+
+nav > a:hover{
+    background-color: darkcyan;
+    text-decoration: underline;
+}
+
+main{
+    background-color: darkmagenta;
+    border-style: solid;
+    padding: 10px;
+
+}
+article > aside{
+    background-color: darkgray;
+    text-align: center;
+    border-style: solid;
+    padding: 1px;
+}
+footer{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Teste kk</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário De Cria </h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" autofocus autocomplete="off" required minlength="5" maxlength="30" size="30" placeholder="Insira o Nome">
+        </p>
+        <p>
+            <label for="iidade">Idade: </label>
+            <input type="number" name="idade" id="iidade" required min="18" size="8" placeholder="Insira a Idade">
+        </p>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
